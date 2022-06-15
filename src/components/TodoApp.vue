@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="text-center mt-5">To doLists with Vue</h2>
+    <h2 class="text-center mt-5">Todo Lists with Vue</h2>
 
     <!-- Input -->
     <div class="f-flex">
