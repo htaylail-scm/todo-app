@@ -56,11 +56,11 @@ export default {
       availableStatuses: ['to-do', 'in-progress','finished'],
       tasks: [
         {
-          name: 'Steal bananas from the store',
+          name: 'Learning N5 Chaper 1',
           status: 'to-do',
         },
         {
-          name: 'Eat apple 10 boz',
+          name: 'To clean room',
           status: 'in-progress',
         }
       ]
@@ -85,6 +85,7 @@ export default {
     },
 
     deleteTask(index) {
+      confirm("Are you sure you want to delete this item?"); 
       this.tasks.splice(index,1);
     },
 
